@@ -4,8 +4,6 @@
 
 
 ```java
-package com.ergo.pluse.type;
-
 import com.github.salpadding.jpa.And;
 import com.github.salpadding.jpa.Column;
 import com.github.salpadding.jpa.QuerySuffix;
