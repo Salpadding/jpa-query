@@ -84,6 +84,7 @@ public class OrderQuery extends PageSize{
 
         String suffix = (and.isEmpty() ? "" : " where ") + sf.getSuffix();
         Query q = em.createQuery(QUERY + suffix);
+        sf.getParams().forEach(q::setParameter);
     }
 }
 
