@@ -30,6 +30,6 @@ public class QuerySuffix {
     }
 
     public Map<String, Object> getParams() {
-        return this.params;
+        return Collections.unmodifiableMap(this.params);
     }
 }
